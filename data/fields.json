@@ -1,0 +1,98 @@
+{
+  "fields": [
+    {
+      "name": "Data Science",
+      "skills": [
+        "Python",
+        "R",
+        "Statistics",
+        "Data Visualization",
+        "SQL",
+        "Data Cleaning",
+        "Machine Learning Basics"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "skills": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Model Evaluation",
+        "Feature Engineering",
+        "Hyperparameter Tuning",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "AI Engineering",
+      "skills": [
+        "Deep Learning",
+        "Neural Networks",
+        "TensorFlow",
+        "PyTorch",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Model Deployment"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "skills": [
+        "Spreadsheets",
+        "SQL",
+        "Statistics",
+        "Tableau",
+        "Power BI",
+        "Data Cleaning",
+        "Data Storytelling"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "skills": [
+        "Node.js",
+        "Spring",
+        ".NET",
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Java",
+        "C#",
+        "C++",
+        "Python",
+        "Databases",
+        "REST APIs",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Front-end Development",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Vue.js",
+        "Angular",
+        "Svelte",
+        "Responsive Design",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "skills": [
+        "Cloud Computing",
+        "Version Control",
+        "Docker",
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "Linux Command Line",
+        "Networking Basics",
+        "Security",
+        "Agile & Scrum"
+      ]
+    }
+  ]
+}

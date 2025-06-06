@@ -1,0 +1,24 @@
+html, body{
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
