@@ -24,7 +24,7 @@ body {
 }
 
 .title-container {
-  background-color: navy;
+  background: linear-gradient(135deg, #1a237e, #1154b8);
   padding: 20px 40px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -33,11 +33,11 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin: 0;
   text-align: center;
   color: whitesmoke;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 button {
