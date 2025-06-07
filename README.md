@@ -34,3 +34,6 @@ http-server ./ -p 3000 -c-1
 
 ## IDE
 Visual Studio Code
+
+## Acknowledgement
+Cursor claude-3.7-sonnet and ChatGpt GPT-4o assistance is used for code generation

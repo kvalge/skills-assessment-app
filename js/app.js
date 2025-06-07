@@ -1,9 +1,13 @@
 const container = document.createElement('div');
 container.classList.add('container');
 
+const titleContainer = document.createElement('div');
+titleContainer.classList.add('title-container');
+
 const h1 = document.createElement('h1');
 h1.innerHTML = 'Skills Assessment';
-container.appendChild(h1);
+titleContainer.appendChild(h1);
+container.appendChild(titleContainer);
 
 const fieldsListUl = document.createElement('ul');
 fieldsListUl.id = 'fields-list';
