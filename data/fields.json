@@ -1,6 +1,18 @@
 {
   "fields": [
     {
+      "name": "Data Analysis",
+      "skills": [
+        "Spreadsheets",
+        "SQL",
+        "Statistics",
+        "Tableau",
+        "Power BI",
+        "Data Cleaning",
+        "Data Storytelling"
+      ]
+    },
+    {
       "name": "Data Science",
       "skills": [
         "Python",
@@ -24,31 +36,7 @@
       ]
     },
     {
-      "name": "AI Engineering",
-      "skills": [
-        "Deep Learning",
-        "Neural Networks",
-        "TensorFlow",
-        "PyTorch",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Model Deployment"
-      ]
-    },
-    {
-      "name": "Data Analysis",
-      "skills": [
-        "Spreadsheets",
-        "SQL",
-        "Statistics",
-        "Tableau",
-        "Power BI",
-        "Data Cleaning",
-        "Data Storytelling"
-      ]
-    },
-    {
-      "name": "Back-end Development",
+      "name": "Back-End Development",
       "skills": [
         "Node.js",
         "Spring",
@@ -66,7 +54,7 @@
       ]
     },
     {
-      "name": "Front-end Development",
+      "name": "Front-End Development",
       "skills": [
         "HTML",
         "CSS",
@@ -81,15 +69,27 @@
       ]
     },
     {
-      "name": "Technical Skills",
+      "name": "AI Engineering",
+      "skills": [
+        "Deep Learning",
+        "Neural Networks",
+        "TensorFlow",
+        "PyTorch",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Model Deployment"
+      ]
+    },
+    {
+      "name": "General",
       "skills": [
         "Cloud Computing",
         "Version Control",
         "Docker",
         "Kubernetes",
-        "CI/CD Pipelines",
-        "Linux Command Line",
-        "Networking Basics",
+        "CI/CD",
+        "Linux",
+        "Networking",
         "Security",
         "Agile & Scrum"
       ]

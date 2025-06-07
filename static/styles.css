@@ -1,24 +1,46 @@
-html, body{
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
+html,
+body, button {
+  font-family: 'Palatino Linotype', 'Book Antiqua', serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f0f2f5;
 }
 
 .container {
-    width: 80%;
-    height: 100%;
-    text-align: center;
-    background-color: whitesmoke;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  background-color: whitesmoke;
+  color: #333;
 }
 
 h1 {
-    color: #333;
-    font-size: 2.5em;
-    margin: 40px 0;
+  font-size: 2.5em;
+  margin: 50px 0;
+}
+
+button {
+  background-color: #e5e6ea;
+  color: #333;
+  width: 140px;
+  padding: 8px;
+  font-size: 14px;
+  margin: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+li {
+  color: #555;
+  font-size: 1.2em;
+  margin: 10px 0;
+  list-style-type: none;
+  text-align: left;
 }
