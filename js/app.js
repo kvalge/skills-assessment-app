@@ -1,11 +1,12 @@
 const container = document.createElement('div');
 container.classList.add('container');
 
-let h1 = document.createElement('h1');
+const h1 = document.createElement('h1');
 h1.innerHTML = 'Skills Assessment';
 container.appendChild(h1);
 
-const fieldsListUl = document.createElement('fields-list');
+const fieldsListUl = document.createElement('ul');
+fieldsListUl.id = 'fields-list';
 container.appendChild(fieldsListUl);
 
 async function getFieldsData() {
@@ -18,19 +19,36 @@ function generateFieldList() {
     fieldsListUl.innerHTML = '';
     data.fields.forEach((field) => {
       const listItem = document.createElement('li');
+      const fieldContainer = document.createElement('div');
+      fieldContainer.classList.add('field-container');
+      
       const btn = document.createElement('button');
       btn.textContent = field.name;
-
-      btn.addEventListener('click', () => {
-        alert(`You clicked on ${field.name}`);
-        generateSkillList(field);
+      
+      const skillsListUl = document.createElement('ul');
+      skillsListUl.classList.add('skills-list');
+      skillsListUl.style.display = 'none';
+      
+      field.skills.forEach((skill) => {
+        const skillItem = document.createElement('li');
+        skillItem.textContent = skill;
+        skillsListUl.appendChild(skillItem);
       });
-      listItem.appendChild(btn);
+      
+      btn.addEventListener('click', () => {
+        const isVisible = skillsListUl.style.display === 'block';
+        skillsListUl.style.display = isVisible ? 'none' : 'block';
+      });
+      
+      fieldContainer.appendChild(btn);
+      fieldContainer.appendChild(skillsListUl);
+      listItem.appendChild(fieldContainer);
       fieldsListUl.appendChild(listItem);
     });
   });
 }
 
-document.addEventListener('DOMContentLoaded', generateFieldList);
-
-document.body.appendChild(container);
+document.addEventListener('DOMContentLoaded', () => {
+  generateFieldList();
+  document.body.appendChild(container);
+});

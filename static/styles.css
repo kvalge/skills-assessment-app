@@ -1,5 +1,6 @@
 html,
-body, button {
+body,
+button {
   font-family: 'Palatino Linotype', 'Book Antiqua', serif;
 }
 
@@ -17,30 +18,64 @@ body {
   text-align: center;
   background-color: whitesmoke;
   color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
   font-size: 2.5em;
   margin: 50px 0;
+  text-align: center;
+  color: #333;
 }
 
 button {
-  background-color: #e5e6ea;
+  background-color: #d6d7db;
   color: #333;
-  width: 140px;
   padding: 8px;
   font-size: 14px;
-  margin: 5px 20px;
+
+  padding: 10px 20px;
+  width: 100%;
   border: none;
   border-radius: 5px;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
+button:hover {
+  background-color: silver;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
 li {
   color: #555;
-  font-size: 1.2em;
+  font-size: 15px;
   margin: 10px 0;
   list-style-type: none;
   text-align: left;
+}
+
+#fields-list {
+  list-style: none;
+  padding: 0;
+}
+
+.field-container {
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 10px 0 10px 20px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list li {
+  padding: 5px 0;
+  color: #666;
 }
