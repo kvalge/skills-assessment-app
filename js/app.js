@@ -33,12 +33,12 @@ class SkillsApp {
   }
 
   async getFieldsData() {
-    this.fieldsData = await this.fetchData('/data/fields.json', this.fieldsData);
+    this.fieldsData = await this.fetchData('data/fields.json', this.fieldsData);
     return this.fieldsData;
   }
 
   async getLevelsData() {
-    this.levelsData = await this.fetchData('/data/levels.json', this.levelsData);
+    this.levelsData = await this.fetchData('data/levels.json', this.levelsData);
     return this.levelsData;
   }
 

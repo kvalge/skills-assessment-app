@@ -1,5 +1,6 @@
 # Skills Assessment App
 A web application for selecting skill area and rating proficiency level in each skill.  
+Hosted: https://enos.itcollege.ee/~kvalge/skills-assessment-app/
 
 ## Features
 - Select from predefined skill categories (e.g. Data Science, Backend Development)
